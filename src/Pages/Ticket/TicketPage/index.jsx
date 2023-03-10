@@ -8,8 +8,22 @@ import taglogo from "../../../assets/ticket/Ellipse 4.svg";
 import qrcode from "../../../assets/ticket/Qr code.svg";
 import { formContext } from "../../../contexts/context";
 
+
+
 export default function TicketPage() {
   const { nome, categoria, date } = useContext(formContext);
+
+  
+
+
+
+  const dataFormatada = new Date(date).toLocaleDateString()
+
+  
+ 
+
+
+ 
 
   return (
     <>
@@ -34,7 +48,7 @@ export default function TicketPage() {
               <h5 className="ticketInfo_tittle">{nome}</h5>
               <p className="ticketInfo-txt">{categoria}</p>
               <p className="ticketInfo-txt">Setor Pista</p>
-              <p className="ticketInfo-txt">Data {date}.</p>
+              <p className="ticketInfo-txt">Data  07/11</p>
               <p className="ticketInfo-txt">Local: São Paulo-SP</p>
             </div>
           </div>
