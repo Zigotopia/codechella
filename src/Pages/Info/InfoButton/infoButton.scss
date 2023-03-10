@@ -1,0 +1,41 @@
+@import "../../../styles/variables.scss";
+
+.infoButton_title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $azul-escuro;
+  width: 50vw;
+
+  & h3 {
+    color: white;
+    font-family: $fonte-texto;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}
+
+.infoButton-description {
+  padding: 1rem 2rem;
+  background-color: $azul-claro;
+  color: $cinza;
+  font-weight: 500;
+  font-family: $fonte-texto;
+  width: 50vw;
+  margin-top: -0.5rem;
+
+}
+
+.off {
+    display: none;
+    transition: display 0.5s ;
+}
+
+.toogle {
+    
+     &:hover{
+        cursor: pointer;
+       
+    }
+}

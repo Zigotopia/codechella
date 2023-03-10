@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.infoBanner_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_Container {
+  margin: 3rem 4rem;
+
+  .info_title{
+    color: $cinza;
+    font-family: $fonte-titulo;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center  ;
+
+    
+
+
+}
+}
+
+.info_questions{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}

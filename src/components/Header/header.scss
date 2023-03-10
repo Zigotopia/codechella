@@ -1,0 +1,52 @@
+@import'../../styles/_variables';
+
+
+
+.headerContainer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$azul-escuro ;
+    padding: 1.5rem 3rem;
+    
+    .header__logo{
+        width: 233px;
+
+        &:hover {
+            cursor: pointer;
+            
+        }
+
+    }
+
+    .header__navbar {
+        display:flex;
+        gap: 1.5rem;
+
+        .header__navbar-link {
+
+            font-size:18px ;
+            font-family: $fonte-texto;
+            color: white;
+            text-decoration: none;
+            padding-bottom: 3px;
+            
+            
+             &:hover{
+                border-bottom: 2px solid salmon;
+                margin-bottom: -2px;
+                text-shadow: 2px salmon;
+               
+                
+                
+
+            }
+
+        }
+    }
+
+}
+
+
+

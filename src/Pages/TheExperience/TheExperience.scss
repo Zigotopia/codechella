@@ -1,0 +1,44 @@
+@import "../../styles/variables.scss";
+
+.exp_banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exp_container {
+  margin: 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  .post_container {
+    display: flex;
+    gap: 3rem;
+
+    .post_description {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      color: $cinza;
+      font-family: $fonte-texto;
+      padding-top: 3rem;
+
+      &-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+
+      &-title2 {
+        text-align: end;
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+
+      &-text {
+        font-weight: 500;
+        line-height: 2rem;
+      }
+    }
+  }
+}

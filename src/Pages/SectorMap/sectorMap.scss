@@ -1,0 +1,109 @@
+@import "../../styles/variables.scss";
+
+.sector_banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sector_main {
+  margin: 2rem 100px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 2rem ;
+}
+
+.map_lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.map_title {
+  font-family: $fonte-texto;
+  color: $cinza;
+  font-size: 1.5rem;
+}
+
+.map_pista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.pista_item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: $cinza;
+  font-family: $fonte-texto;
+}
+
+.item_quadrado {
+  width: 2rem;
+  height: 2rem;
+}
+
+.pista_item-azul {
+  background-color: rgba(14, 125, 241, 1);
+}
+.pista_item-rosa {
+  background-color: rgba(254, 1, 110, 1);
+}
+.pista_item-verde {
+  background-color: rgba(1, 168, 158, 1);
+}
+.pista_item-roxo {
+  background-color: rgba(63, 81, 181, 1);
+}
+
+.pistas_titulo{
+    font-weight: 700;
+    color: $cinza;
+    font-family: $fonte-texto;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+    
+}
+
+.pistas_container {
+    display: flex;
+    gap: 1rem;
+}
+
+.pista2 {
+    margin-top: 6.5rem;
+    
+
+    
+}
+.pista_title{
+    color: $cinza;
+    font-family: $fonte-texto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 0  2rem 0;
+
+}
+
+.pista_txt {
+    color: $cinza;
+    font-family: $fonte-texto;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    padding-inline: 0.3rem;
+}
+
+
+
+
+
+
+
