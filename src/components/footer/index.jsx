@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer_direito">
-        <p>Desenvolido por Zigotopia</p>
+        <p>Desenvolvido por Zigotopia</p>
         <p>Projeto ficticio sem fins lucrativos</p>
       </div>
     </footer>

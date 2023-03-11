@@ -1,12 +1,21 @@
 @import "../../styles/_variables";
 .main__container {
-  margin: 3rem 8rem;
+  margin: 3rem 5rem;
 
   .festival__info {
     display: flex;
     gap: 5rem;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column
+        ;
+        
+        
+    }
+
+
 
     .festivalimg {
       width: 609px;
@@ -45,6 +54,14 @@
         align-items: center;
         box-shadow: 4px 4px 0px #444444;
 
+        &:hover{
+           background-color: #519EC5;
+            cursor: pointer;
+           
+
+        }
+
+
         p {
           color: white;
           font-family: $fonte-texto;
@@ -69,20 +86,22 @@
 
       .dia_container {
         display: flex;
-        padding-inline: -4rem;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+     
+
       }
 
       .linha_esquerda {
         border-bottom: 1px solid $mostarda;
         width: 300px;
-        position: relative;
-        bottom: 2rem;
       }
       .linha_direita {
         border-bottom: 1px solid $mostarda;
         width: 300px;
-        position: relative;
-        bottom: 2rem;
+        
       }
 
       &_title {
@@ -93,11 +112,12 @@
         padding: 1rem 1rem;
         color: white;
         margin: auto;
-        width: fit-content;
+        width: auto;
       }
 
       .bandas_container {
         margin: 3rem auto;
+       
       }
       .banda_principal {
         font-size: 44px;
@@ -111,6 +131,7 @@
         gap: 2rem;
         justify-content: center;
         padding: 1rem 0;
+        flex-wrap: wrap;
 
         & h5 {
           font-size: 1.2rem;

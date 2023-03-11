@@ -5,6 +5,8 @@ import infoBannerImg from "../../assets/Info/InfoBanner.png"
 import infos from './InfoButton/infos.json'
 import InfoButton from "./InfoButton";
 
+
+
 export default function Info() {
   return (
     <>

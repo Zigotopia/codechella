@@ -2,26 +2,26 @@
    {
     "id": "1",
     "titulo": "Quais serão as atrações?",
-    "conteudo": "Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. Confira o line-up em detalhes clicando neste link!"
+    "conteudo": "Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. Confira o line-up em detalhes clicando neste  link!"
    },
 
    {
     "id": "2",
     "titulo": "Qual é a classificação etária?",
-    "conteudo": ""
+    "conteudo": "A classificação etaria corresponde todos aqueles que possuem 18 ou mais anos de idade, pois claramente haverá muita drogas na festa."
    },
 
    {
     "id": "3",
     "titulo": "Quais são os setores disponíveis?",
-    "conteudo" : ""
+    "conteudo" : "São ao todo 5 setores disponiveis. Haverá lugares para codar, se drogar, transar e dormir logicamente pois ninguem aguenta 24h de evento."
     
    },
 
    {
     "id": "4",
     "titulo" : "Quais são os itens proibidos?",
-    "conteudo" : ""
+    "conteudo" : "Dignidade, pois depois que acaboar não haverá nenhuma. Ela começara undefined e terminará null."
 
    }
 
@@ -29,3 +29,4 @@
     
    
 ]
+

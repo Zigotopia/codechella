@@ -11,13 +11,12 @@ import { formContext } from "../../../contexts/context";
 
 
 export default function TicketPage() {
-  const { nome, categoria, date } = useContext(formContext);
+  const { nome, categoria } = useContext(formContext);
 
   
 
 
 
-  const dataFormatada = new Date(date).toLocaleDateString()
 
   
  

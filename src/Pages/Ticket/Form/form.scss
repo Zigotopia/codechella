@@ -42,37 +42,58 @@
 
 .form_flex {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
+  justify-content: center;
+  
+
+   @media screen and (max-width:900px) {
+    flex-direction: column;
+    align-items: center;
+    
+   }
+  
+
 }
 
 .label_input {
   height: 3rem;
   width: 40vw;
   border: none;
-  padding-inline: 2rem;
+  padding: 0rem 2rem;
+
   color: $cinza;
+
+  
     
 }
 
 .label_select {
   background-color: white;
   height: 3rem;
-  width: 19.3vw;
+  width: calc(20vw + 1rem);
   border: none;
-  padding: 1rem 3rem 1rem 1rem;
+  padding: 0 1rem;
   color: $cinza;
   font-family: $fonte-texto;
+  @media screen and (max-width:900px) {
+  width: 48vw;
+    padding: 0 2rem;
+  }
 }
 
 .label_date {
   background-color: white;
   height: 3rem;
-  width: 19.3vw;
+  width: calc(20vw + 1rem);
   border: none;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   text-align: center;
   color: $cinza;
   font-family: $fonte-texto;
+
+  @media screen and (max-width:900px){
+    width: 44.5vw;
+  }
 }
 
 .form_button {
@@ -88,4 +109,11 @@
   margin: 1rem;
   font-weight: 600;
   font-family: $fonte-texto;
+
+   &:hover{
+            background-color: #519EC5;
+            cursor: pointer;
+           
+
+        }
 }

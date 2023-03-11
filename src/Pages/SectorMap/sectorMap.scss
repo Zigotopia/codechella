@@ -7,14 +7,24 @@
 }
 
 .sector_main {
-  margin: 2rem 100px;
+  margin: 2rem 10vw;
 }
 
 .map {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin: 0 2rem ;
+  justify-content: center;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.map_img {
+  max-width: 80vw;
 }
 
 .map_lista {
@@ -60,50 +70,56 @@
   background-color: rgba(63, 81, 181, 1);
 }
 
-.pistas_titulo{
-    font-weight: 700;
-    color: $cinza;
-    font-family: $fonte-texto;
-    font-size: 1.7rem;
-    text-align: center;
-    margin: 4rem 0 3rem 0;
-    
+.pistas_titulo {
+  font-weight: 700;
+  color: $cinza;
+  font-family: $fonte-texto;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 4rem 0 3rem 0;
 }
 
 .pistas_container {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
+.pista {
+  max-width: 100%;
+  & img {
+    max-width: 100%;
+  }
+}
 .pista2 {
-    margin-top: 6.5rem;
-    
+  margin-top: 6.5rem;
+  max-width: 100%;
 
-    
+  & img {
+    max-width: 100%;
+  }
 }
-.pista_title{
-    color: $cinza;
-    font-family: $fonte-texto;
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 1rem 0  2rem 0;
-
+.pista_title {
+  color: $cinza;
+  font-family: $fonte-texto;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 0 2rem 0;
 }
 
 .pista_txt {
-    color: $cinza;
-    font-family: $fonte-texto;
-    font-weight: 500;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 2rem;
-    padding-inline: 0.3rem;
+  color: $cinza;
+  font-family: $fonte-texto;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  padding-inline: 0.3rem;
 }
-
-
-
-
-
-
-

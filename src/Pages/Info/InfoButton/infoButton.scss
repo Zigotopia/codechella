@@ -8,6 +8,23 @@
   background-color: $azul-escuro;
   width: 50vw;
 
+  @media screen and (max-width:900px) {
+    width: 75vw;
+
+
+    
+    
+  }
+
+    
+
+   &:hover{
+            background-color: #519EC5;
+            cursor: pointer;
+           
+
+        }
+
   & h3 {
     color: white;
     font-family: $fonte-texto;
@@ -24,6 +41,14 @@
   font-family: $fonte-texto;
   width: 50vw;
   margin-top: -0.5rem;
+
+   @media screen and (max-width:900px) {
+    width: 75vw;
+
+
+    
+    
+  }
 
 }
 

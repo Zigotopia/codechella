@@ -2,8 +2,11 @@ import React from "react";
 import ingresso from "../../assets/ingresso.svg";
 import festivalimg from "../../assets/festivalimg.png";
 import "./events.scss";
+import { useNavigate } from "react-router-dom";
 
 export default function EventDescription() {
+
+    const navigate = useNavigate()
   return (
     <main className="main__container">
       <section className="festival__info">
@@ -18,7 +21,7 @@ export default function EventDescription() {
             experiência sobre música, linguagens e, claro, tecnologia! Somos um
             festival diverso, com vários artistas e referências. Divirta-se!
           </p>
-          <div className="ticket">
+          <div className="ticket" onClick={()=> navigate("/ingresso")}>
             <p className="ticket__text">Compre seu ingresso</p>
             <img src={ingresso} alt="icone do ingresso" />
           </div>

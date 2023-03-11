@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './header.scss'
 import logo from '../../assets/logo.svg'
+import menu from '../../assets/menu.svg'
 
 
 export default function Header() {
@@ -20,6 +21,10 @@ export default function Header() {
       <Link to={"/ingresso"} className="header__navbar-link"> Ingresso</Link>
 
     </div>
+    <img className='menu__icon' src={menu} alt="" />
+    
    </header>
+
+   
   )
 }
