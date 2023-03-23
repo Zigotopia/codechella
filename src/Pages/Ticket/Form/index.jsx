@@ -53,7 +53,7 @@ export default function TicketForm() {
                 name="categorias"
                 id="categorias"
                 required>
-                <option value="tipo ingresso"  >
+                <option value="tipo ingresso" disabled  >
                   Tipo de Ingresso
                 </option>
                 <option value="Meia">Meia</option>

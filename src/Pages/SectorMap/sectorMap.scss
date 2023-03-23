@@ -83,27 +83,26 @@
   display: flex;
   gap: 1rem;
   text-align: center;
+  max-width: 90vw;
+  justify-content: space-around;
 
   @media screen and (max-width: 900px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+    .pista2{
+      margin-top: 0;
+    }
   }
 }
 
 .pista {
-  max-width: 100%;
-  & img {
-    max-width: 100%;
-  }
+  width: auto;
 }
 .pista2 {
+  width: auto;
   margin-top: 6.5rem;
-  max-width: 100%;
-
-  & img {
-    max-width: 100%;
-  }
 }
 .pista_title {
   color: $cinza;
